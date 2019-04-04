@@ -26,17 +26,17 @@ public class PruebaEmpleados {
              if (empleado instanceof Jefe){
             Jefe jefe2= (Jefe)empleado;
             jefe.setBonificacion(0.8f);
-                 System.out.println(" Bonificación para :"+jefe.getNombre() );
+                 System.out.println(" Bonificación para: "+jefe.getNombre() );
             
                 
         
              }
         }
       
-         
-        // System.out.println(" El empleado no es un jefe");
+        /* 
+        System.out.println(" El empleado no es un jefe");
         
-       /* Jefe jefe = new Jefe ("Pedro", 1200,1999,0.5f);
+        Jefe jefe = new Jefe ("Pedro", 1200,1999,0.5f);
         System.out.println("Jefe :"+ jefe.getNombre());
         
         

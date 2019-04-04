@@ -4,7 +4,7 @@ package seminario2;
 
 public class Administrativo extends Empleado {
 
-    private static final float FACTOR= 0.1f; 
+    private static final float FACTOR = 0.1f; 
     
     private Jefe jefe;
 
@@ -27,7 +27,7 @@ public class Administrativo extends Empleado {
        
        return super.getSalario() +
        
-               super.getSalario() *jefe.getBonificacion() *FACTOR;
+               super.getSalario() *jefe.getBonificacion() * FACTOR;
        
        
        
